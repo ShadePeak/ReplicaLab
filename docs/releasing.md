@@ -1,6 +1,16 @@
 # Release and demo deployment
 
-The owner-authorized initial push and GitHub Pages deployment completed on 2026-11-08. The [live demo](https://ethanclarke0705.github.io/ReplicaLab/) has passed hosted functional checks; see the [release review](release-review.md). Subsequent deployments remain manual. [v0.1.0](https://github.com/ethanclarke0705/ReplicaLab/releases/tag/v0.1.0) is the first GitHub release; packages remain private and unpublished to npm.
+The owner-authorized initial push and GitHub Pages deployment completed on 2026-11-08. The initial demo passed hosted functional checks; see the [release review](release-review.md). Subsequent deployments remain manual. [v0.1.0](https://github.com/ShadePeak/ReplicaLab/releases/tag/v0.1.0) is the first GitHub release; packages remain private and unpublished to npm.
+
+## Organisation Pages restoration — 15 November 2026
+
+The repository now belongs to `ShadePeak/ReplicaLab`. Inspection found Pages disabled and the old personal-account demo returning 404. Ethan authorised restoring the playground and linking it from the Shadepeak website. Pages was restored with the existing GitHub Actions source, HTTPS and the existing main-only environment policy. No application, replication or persistence semantics changed.
+
+The initially restored application revision is `9bb235bcf740ff6897658b68afe58e7b4980ab65`. Local `pnpm check` passed (122 Vitest tests, the static-artifact regression, formatting, lint, types and builds). The [verification-only run](https://github.com/ShadePeak/ReplicaLab/actions/runs/43771151231) passed release checks and dependency audit, producing the reviewed artifact. The [publish run](https://github.com/ShadePeak/ReplicaLab/actions/runs/43771406004) rebuilt that revision, passed the same gates and deployed successfully.
+
+The restored address is **https://shadepeak.github.io/ReplicaLab/**. This is a different browser origin from the old personal-account site; saved lab data does not automatically transfer between them. No browser data was read, migrated or cleared as part of restoration. Publication remains manual and npm packages remain private.
+
+The initial restored application passed eight hosted Chromium cases across 390px and 1440px: offline writes, reload restoration, reconnection and conflict inspection. A subsequent visual audit found low-contrast secondary labels. This follow-up darkens those labels without changing layout or replication logic. The corrected production build passed `pnpm check` again, and phone/desktop preview audits found zero axe WCAG A/AA violations, page overflow or console errors. Deployed asset hashes and final hosted checks are recorded with the Shadepeak website's restoration evidence.
 
 ## Local release checks
 

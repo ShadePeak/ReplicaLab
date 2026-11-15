@@ -134,7 +134,7 @@
 }
 .event-time {
   font: 10px var(--mono);
-  color: #6e7967;
+  color: #52644c;
 }
 .event-time small {
   font-size: 8px;
@@ -155,7 +155,7 @@
 .type-received,
 .type-convergence {
   background: #e7f0dd;
-  color: #5b7945;
+  color: #52644c;
 }
 .type-dropped,
 .type-rejected {
@@ -175,19 +175,19 @@
 }
 .event-index {
   font: 9px var(--mono);
-  color: #788271;
+  color: #52644c;
   text-align: right;
 }
 .timeline-footer {
   padding: 10px;
   border-top: 1px solid var(--line);
   font-size: 9px;
-  color: #6c7c63;
+  color: #52644c;
   background: #fafbf8;
 }
 .timeline-empty {
   padding: 30px 20px;
-  color: #6d7b63;
+  color: #52644c;
   font-size: 12px;
 }
 .timeline-empty p {
@@ -208,7 +208,7 @@
 }
 .inspector-heading > span {
   font: 10px var(--mono);
-  color: #73806a;
+  color: #52644c;
 }
 .inspector-title {
   font: 11px var(--mono);
@@ -235,7 +235,7 @@
   gap: 8px;
 }
 .operation-metadata dt {
-  color: #7b866f;
+  color: #52644c;
 }
 .operation-metadata dd {
   font-family: var(--mono);
@@ -521,7 +521,7 @@ h1 > span {
 }
 .status-strip small {
   font-size: 11px;
-  color: #6d7968;
+  color: #52644c;
 }
 .status-strip .play-state strong {
   font: 11px var(--mono);
@@ -538,7 +538,7 @@ h1 > span {
 }
 .consistency div > span {
   font-size: 10px;
-  color: #64745e;
+  color: #52644c;
   display: block;
   margin-top: 3px;
 }
@@ -662,7 +662,7 @@ h1 > span {
 .network-footnote {
   display: flex;
   gap: 10px;
-  color: #71806b;
+  color: #52644c;
   font-size: 10px;
   margin-top: 18px;
   line-height: 1.6;
@@ -906,7 +906,7 @@ summary {
   overflow-wrap: anywhere;
 }
 .empty-state {
-  color: #74816d;
+  color: #52644c;
   font-size: 11px;
   padding: 20px 0;
 }
@@ -940,7 +940,7 @@ footer {
   gap: 15px;
   padding: 22px 0 4px;
   font: 10px var(--mono);
-  color: #77826f;
+  color: #52644c;
 }
 footer span span {
   margin: 0 8px;

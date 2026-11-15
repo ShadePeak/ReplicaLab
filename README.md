@@ -6,14 +6,14 @@ ReplicaLab is a distributed key-value synchronisation engine and interactive pla
 
 ![Three replicas resolving concurrent writes, with the losing operation explained](docs/images/playground-desktop.jpg)
 
-**[Open the live demo](https://ethanclarke0705.github.io/ReplicaLab/)** - Milestones 0-5 are complete, with passing hosted CI and a verified GitHub Pages demo. [v0.1.0](https://github.com/ethanclarke0705/ReplicaLab/releases/tag/v0.1.0) is the first GitHub release; packages remain private and unpublished to npm. [Release guide](docs/releasing.md) | [Playground guide](docs/playground.md) | [Architecture](docs/architecture.md)
+**[Open the live demo](https://shadepeak.github.io/ReplicaLab/)** - Milestones 0-5 are complete, with passing hosted CI and a verified GitHub Pages demo. [v0.1.0](https://github.com/ShadePeak/ReplicaLab/releases/tag/v0.1.0) is the first GitHub release; packages remain private and unpublished to npm. [Release guide](docs/releasing.md) | [Playground guide](docs/playground.md) | [Architecture](docs/architecture.md)
 
 ## Run locally
 
 Install **Node.js 24** and **pnpm 11.25.0**, then:
 
 ```sh
-git clone https://github.com/ethanclarke0705/ReplicaLab.git
+git clone https://github.com/ShadePeak/ReplicaLab.git
 cd ReplicaLab
 pnpm install --frozen-lockfile
 pnpm dev
