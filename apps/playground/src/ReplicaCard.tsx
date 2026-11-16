@@ -59,7 +59,11 @@ export function ReplicaCard({
       </div>
       <div className="store">
         <div className="section-kicker">
-          LOCAL STATE <span>{replica.entries.length} keys</span>
+          LOCAL STATE{' '}
+          <span>
+            {replica.entries.length}{' '}
+            {replica.entries.length === 1 ? 'key' : 'keys'}
+          </span>
         </div>
         {replica.entries.length === 0 ? (
           <p className="empty-state">No visible keys. Add a value below.</p>
